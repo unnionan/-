@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetRegisterInformation</servlet-name>
+    <servlet-class>com.admin.GetRegisterInformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetLoginInformation</servlet-name>
+    <servlet-class>com.admin.GetLoginInformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateAdminInformation</servlet-name>
+    <servlet-class>com.admin.UpdateAdminInformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserLoginInformation</servlet-name>
+    <servlet-class>com.user.GetUserLoginInformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserRegisterInformation</servlet-name>
+    <servlet-class>com.user.GetUserRegisterInformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserSql</servlet-name>
+    <servlet-class>com.user.UserSql</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCardCharge</servlet-name>
+    <servlet-class>com.student.GetCardCharge</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetStudentRegisterInformation</servlet-name>
+    <servlet-class>com.student.GetStudentRegisterInformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetStudentLoginInformation</servlet-name>
+    <servlet-class>com.student.GetStudentLoginInformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetStudentUpdateInformation</servlet-name>
+    <servlet-class>com.student.GetStudentUpdateInformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetStudentCreateCard</servlet-name>
+    <servlet-class>com.student.GetStudentCreateCard</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetStudentHealcheck</servlet-name>
+    <servlet-class>com.student.GetStudentHealcheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetPayState</servlet-name>
+    <servlet-class>com.user.GetPayState</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserUpdateInformation</servlet-name>
+    <servlet-class>com.user.GetUserUpdateInformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserUpdatePwd</servlet-name>
+    <servlet-class>com.user.GetUserUpdatePwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetStudentUpdatePwd</servlet-name>
+    <servlet-class>com.student.GetStudentUpdatePwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllLogin</servlet-name>
+    <servlet-class>com.login.GetAllLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetStudentSingleSelect</servlet-name>
+    <servlet-class>com.student.GetStudentSingleSelect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetDromUpdate</servlet-name>
+    <servlet-class>com.student.GetDromUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetStudentUpdateState</servlet-name>
+    <servlet-class>com.student.GetStudentUpdateState</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>GetRegisterInformation</servlet-name>
+    <url-pattern>/GetRegisterInformation.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetLoginInformation</servlet-name>
+    <url-pattern>/GetLoginInformation.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateAdminInformation</servlet-name>
+    <url-pattern>/UpdateAdminInformation.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserLoginInformation</servlet-name>
+    <url-pattern>/GetUserLoginInformation.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserRegisterInformation</servlet-name>
+    <url-pattern>/GetUserRegisterInformation.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserSql</servlet-name>
+    <url-pattern>/UserSql.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCardCharge</servlet-name>
+    <url-pattern>/GetCardCharge.do</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet-mapping>
+    <servlet-name>GetStudentRegisterInformation</servlet-name>
+    <url-pattern>/GetStudentRegisterInformation.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetStudentLoginInformation</servlet-name>
+    <url-pattern>/GetStudentLoginInformation.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetStudentUpdateInformation</servlet-name>
+    <url-pattern>/GetStudentUpdateInformation.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetStudentCreateCard</servlet-name>
+    <url-pattern>/GetStudentCreateCard.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetStudentHealcheck</servlet-name>
+    <url-pattern>/GetStudentHealcheck.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPayState</servlet-name>
+    <url-pattern>/GetPayState.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserUpdateInformation</servlet-name>
+    <url-pattern>/GetUserUpdateInformation.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserUpdatePwd</servlet-name>
+    <url-pattern>/GetUserUpdatePwd.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetStudentUpdatePwd</servlet-name>
+    <url-pattern>/GetStudentUpdatePwd.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllLogin</servlet-name>
+    <url-pattern>/GetAllLogin.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetStudentSingleSelect</servlet-name>
+    <url-pattern>/GetStudentSingleSelect.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDromUpdate</servlet-name>
+    <url-pattern>/GetDromUpdate.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetStudentUpdateState</servlet-name>
+    <url-pattern>/GetStudentUpdateState.do</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

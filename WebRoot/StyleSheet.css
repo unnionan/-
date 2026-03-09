@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+.first-Table-Box{
+      .table-Box{
+        width:100%;
+        table-layout: fixed;
+        .table-Tr{
+          font-size: 14px;
+          .table-Td{
+            border-bottom: 1px solid #ececed;
+            text-align: center;
+            border-top: 1px solid #ececed;
+            .table-Lisdata{
+              padding: 0 16px 0 12px;
+              .table-Lisdata-span{
+                padding-top: 15px!important;
+                padding-bottom: 15px!important;
+                color: #404348;
+                display: block;
+                padding-top: 8px;
+                padding-bottom: 6px;
+                min-height: 30px;
+                word-break: break-all;
+              }
+            }
+          }
+          .table-Th{
+            width: 160px;
+            text-align: right;
+            border-bottom: 1px solid #ececed;
+            border-top: 1px solid #ececed;
+            background-color: #f7f8f9;
+            .table-title{
+              padding: 15px 16px !important;
+              color: #65686d;
+              line-height: 18px;
+ 
+            }
+          }
+        }
+ 
+      }
+    }
+.container{
+  position:relative;/*确保伪元素能正确定位*/
+}
+.container::before{
+  content:"";/*伪元素需要内容，即使它是空的*/
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background:url(image/AdminButton.png)no-repeat;
+  background-size:cover;/*或其他你需要的背景大小*/
+  opacity:0.2;/*设置透明度*/
+  z-index:-1;/*确保伪元素在内容之下*/
+}
